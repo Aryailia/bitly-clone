@@ -138,7 +138,7 @@ end
 
 desc 'Initiate shotgun in localhost'
 task "server" do
-	exec "shotgun config.ru"
+	exec "shotgun --host localhost config.ru"
 end
 
 
